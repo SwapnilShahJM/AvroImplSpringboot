@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "MBPInformation",
+  "namespace": "com.example.avro",
+  "fields": [
+    {"name": "quantity", "type": ["null", "long"], "default": null},
+    {"name": "price", "type": ["null", "int"], "default": null},
+    {"name": "numberOfOrders", "type": ["null", "int"], "default": null},
+    {"name": "bbBuySellFlag", "type": ["null", "int"], "default": null}
+  ]
+}
